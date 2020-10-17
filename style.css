@@ -1,0 +1,248 @@
+.web{
+	margin-top: 15px;
+	background-image: url('images/sales.png');
+	background-attachment: fixed;
+    background-position: center;
+}
+.mid{
+
+	width: 900px;
+	height: auto;
+	background: rgba(255, 255, 255, 0.91);
+	padding: 20px;
+	margin: 20px auto;
+}
+.banner{
+
+height: 80px;
+width: 100%;
+}
+.banner h2,h3,h4{
+	text-align: center;
+}
+
+.menu{
+	padding: 05px;
+	height:40px;
+	background:rgba(117, 125, 138, 0);
+	/*text-align: center;*/
+}
+.menu ul {
+	margin:0;
+	padding:0;
+
+}
+.menu ul li {
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.89);
+	margin-left: 5px;
+	position: relative;
+}
+.menu ul li a {
+	display: block;
+	padding:10px 40px;
+
+	border-bottom:rgba(245, 245, 245, 0.89);
+	color:rgba(245, 242, 242, 0.89);
+}
+.menu ul li ul{
+	display: none;
+	position: absolute;
+}
+.menu ul li:hover ul{
+	display: block;
+}
+.menu ul li a:hover {
+	border-bottom:3px solid black;
+	color:red;
+	background-color:rgba(0, 0, 0, 0.89);
+
+}
+.menu ul li:hover ul a{
+	display: block;
+}
+.feature{
+	margin-top: 10px;
+	overflow: hidden;
+
+}
+
+.Cus_box h2{
+	text-align: center;
+}
+.Cus_box{
+
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-left: 40px;
+	padding-right: 40px;
+		border-width:1px;
+	border-style:solid;
+	border-color:#3b6e22 #3b6e22 #2c5115;
+	border-radius:5px;
+	text-shadow:0 1px 2px rgba(0,0,0,.5);
+	box-shadow:inset 0 1px 1px #a4e388;
+
+}
+#mybtn{
+    margin: 10px  400px;
+}
+
+.footer{
+	margin-top: 10px;
+	width: 900px;
+	height: 70px;
+
+	background:rgba(37, 165, 222, 0);
+		margin: auto;
+
+	overflow: hidden;
+}
+.footer h5{
+	text-align: center;
+
+}
+.footer p{
+	margin:20px auto;
+	font-size: 14px;
+	/*margin-left: 50px;*/
+	text-align: center;
+	font-family: aharoni;
+}
+
+/*Form3 file css*/
+.SearchBox{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	background-color: rgba(38, 38, 38, .5);
+}
+#mybtnn{
+	margin-left: 100px;
+}
+/*Form3 file css*/
+
+/*Search dot php CSS*/
+
+
+
+/*Search dot php CSS*/
+
+/*Update Dot PHP file CSS*/
+.UpdateForm{
+	width: 600px;
+	margin-left: 150px;
+
+}
+.UpdateForm table{
+     border: 4px solid black;
+       height:auto;
+       width: 100%;
+       color:red;
+       bgcolor:#399EBC;
+       font-size:30px;
+       margin: auto;
+}
+.UpdateForm table th{
+      border: 3px solid #25A5DE;
+       height:auto;
+       width:auto;
+       color:black;
+       bgcolor:#399EBC;
+       font-size:30px;
+
+
+}
+.UpdateForm table th td{
+      border: 3px solid #25A5DE;
+       height:auto;
+       width:auto;
+       color:red;
+       bgcolor:#399EBC;
+       font-size:30px;
+}
+#mybtnnn{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+/*Update Dot PHP file CSS*/
+
+
+/*This is style for Report.php*/
+.bill_box{
+	height: auto;
+	margin: auto 80px;
+		border-width:1px;
+	border-style:solid;
+	border-color:#3b6e22 #3b6e22 #2c5115;
+	border-radius:5px;
+	text-shadow:0 1px 2px rgba(0,0,0,.5);
+	box-shadow:inset 0 1px 1px #a4e388;
+
+}
+.address h2{
+
+	padding-top: 30px;
+}
+.address label{
+font-size: 22px;
+}
+.address{
+	height: 150px;
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+
+}
+.client{
+
+	height: 120px;
+	width: 100%;
+	margin-top: 30px;
+
+}
+.client label{
+  margin-left: 40px;
+}
+.bill{
+	margin-top: 30px;
+	padding: 30px 30px;
+}
+.bill table{
+
+	width: 100%;
+}
+.bill table tr,th,td{
+	 border: 1px solid black;
+}
+.sign{
+height: 80px;
+width: 100%;
+
+
+}
+.emp_sign{
+
+height: 100px;
+width: 150px;
+float: left;
+display: inline-block;
+
+}
+.client_sign{
+
+height: 100px;
+width: 150px;
+float: right;
+display: inline-block;
+
+}
+.client_sign,.emp_sign h4{
+	text-align: center;
+}
+.client_sign,.emp_sign label{
+	margin-left: 15px;
+
+}
+
+/*This is style for Report.php*/
